@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome | Gmhss Kulasekharapuram</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>This is test commit</h1>
+    <main class="text-stone-900">
+        <header>
+            <div
+                class="navbar p-5 px-10 flex justify-between items-center bg-blue-500 text-white drop-shadow-lg backdrop-blur-lg z-10">
+                <div class="navbar_brand">
+                    <a href="#" class="font-semibold text-2xl">Gmhss Kulasekharapuram</a>
+                </div>
+                <div class="navbar_links flex gap-5 font-semibold">
+                    <a href="#about">About us</a>
+                    <a href="#units">Our Units</a>
+                    <a href="#contact">Contact us</a>
+                    <a href="https://www.facebook.com/profile.php?id=100064548585679" target="_blank">Facebook</a>
+                </div>
+            </div>
+        </header>
+        <section class="hero_section p-5 px-20 flex justify-between items-center gap-10 mt-24">
+            <div class="left_div w-2/5">
+                <h2 class="text-[2.5rem] leading-tight font-extrabold">
+                    Preparing Students For Success In A Changing World ...
+                </h2>
+                <h4 class="text-lg font-medium mt-7">
+                    Committed to educating and nurturing all students so they may grow towards responsible global
+                    citizenship.
+                    <br>
+                    <br>
+                    Contact us for more information
+                </h4>
+                <div class="hero_btns flex items-center gap-5">
+                    <button
+                        class="bg-blue-500 hover:bg-blue-600 duration-200 text-white p-3 px-10 mt-2 rounded-full font-semibold drop-shadow-xl hover:shadow-lg">
+                        Contact Us
+                    </button>
+                    <button
+                        class="bg-blue-100 hover:bg-blue-200 duration-200 text-stone-800 p-3 px-10 mt-2 rounded-full font-semibold">
+                        More about us
+                    </button>
+                </div>
+            </div>
+            <div class="right_div w-3/5">
+                <img class="float-right w-[41rem] rounded-lg drop-shadow-2xl" src="assets/school_main.jpeg" alt="">
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
